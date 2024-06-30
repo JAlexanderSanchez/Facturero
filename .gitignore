@@ -1,0 +1,36 @@
+# Ignorar archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivos de compilación, excepto el archivo JAR específico
+target/*
+!.mvn/wrapper/maven-wrapper.jar
+
+# Excluir archivos de configuraciones específicas
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
